@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   smallest_value = []
-  name_hash.collect { |key, value| smallest_value << value}
+  name_hash.collect { |key, value| smallest_value << value smallest_key << key}
   
   
   smallest_key
