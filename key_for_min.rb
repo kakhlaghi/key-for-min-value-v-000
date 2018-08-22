@@ -13,8 +13,8 @@ def key_for_min_value(name_hash)
       else
         not_smallest_key << key
       end }
-    else
-      nil
-    end
+  else
+    nil
+  end
 end
 
