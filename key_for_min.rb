@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   smallest_key = []
   name_hash.collect { |key, value| smallest_value << value}
   smallest_value.sort { |a,b| a<=>b}
-  names_hash.collect { |key, value| 
+  name_hash.collect { |key, value| 
     if smallest_value[0] 
       smallest_key << key
     end }
