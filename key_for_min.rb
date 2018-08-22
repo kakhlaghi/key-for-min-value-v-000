@@ -9,6 +9,8 @@ def key_for_min_value(name_hash)
   name_hash.collect { |key, value| 
     if value == smallest_value[0] 
       key
+    else
+      value.pop
     end }
   
 end
