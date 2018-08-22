@@ -10,6 +10,6 @@ def key_for_min_value(name_hash)
     if value == smallest_value[0] 
        smallest_key << key
     end }
-  smallest_key
+  smallest_key.join
 end
 
