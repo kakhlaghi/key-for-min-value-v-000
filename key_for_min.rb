@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   smallest_value.sort { |a,b| a<=>b}
   birthday_kids.collect { |key, value| 
     if value == smallest_value[0] 
-       key
+       smallest_key << key
     end }
 
 end
