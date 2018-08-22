@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
   smallest_key
 end
 
-birthday_kids = {
+name_hash= {
     "Timmy" => 9,
     "Sarah" => 6,
     "Amanda" => 27
